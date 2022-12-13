@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing:content-box;
+}
+
+body {
+  position: absolute;
+  background-color: aqua;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-left:500px;
+  color: rgba(1, 5, 9, 0.89);
+  text-transform: capitalize;
+  font-family:'Times New Roman', Times, serif ;
+  align-content: center;
+}
+
+form {
+  position: fixed;
+  width: auto;
+  margin-top: 100px;
+  bottom: 500px;
+  right: 30%;
+  left: 30%;
+  border-radius:auto;
+  border: auto solid rgb(66, 66, 180);
+  color: #000;
+  box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.items {
+  position: relative;
+  top: 200px;
+  right: 20%;
+  left: 20%;
+  border-radius: 25px;
+
+  width: auto;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.completedTodo {
+  background-color: rgb(19, 10, 10);
+  /* text-decoration: line-through; */
+  text-align: right;
+}
+
+span {
+  float :right;
+}
